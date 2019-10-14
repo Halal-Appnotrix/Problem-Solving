@@ -5,7 +5,6 @@
 	Wrost Case:-O(n+n)->
         averege Case:-O(n+n/2)
         Best Case:-O(n+1)
-    Space Complixity:-O(n)
 '''
 
 """ Node is defined as
