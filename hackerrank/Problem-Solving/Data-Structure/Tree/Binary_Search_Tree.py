@@ -18,7 +18,8 @@ def preOrder(root):
 class BinarySearchTree:
     def __init__(self): 
         self.root = None
-
+    
+    #Insertion method.
     def insert(self, val):
         #Enter you code here.
         last_node = None
