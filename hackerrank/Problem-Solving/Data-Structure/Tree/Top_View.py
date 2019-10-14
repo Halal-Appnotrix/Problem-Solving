@@ -1,3 +1,5 @@
+#Comlixity is O(n) of The topView() function.
+
 class Node:
     def __init__(self, info): 
         self.info = info  
