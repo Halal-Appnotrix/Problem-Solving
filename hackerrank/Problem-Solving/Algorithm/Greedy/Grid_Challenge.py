@@ -1,4 +1,6 @@
 # Complete the gridChallenge function below.
+#Time O(n^2).But, It's wrost case.
+
 def gridChallenge(grid):
     l = len(grid)
     for i in range(l-1):
