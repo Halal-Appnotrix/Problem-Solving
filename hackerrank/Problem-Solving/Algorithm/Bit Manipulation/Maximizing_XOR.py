@@ -1,15 +1,16 @@
 from itertools import combinations_with_replacement
 
 
-def maximizingXor(l, r):
-    li = list(range(l, r+1))
-    max_ = 0
-    permuts = combinations_with_replacement(li, 2)
-    for permut in permuts:
-        XOR = (permut[0] ^ permut[1])
-        max_ = max(XOR, max_)
+class Solution(object):
+    def maximizingXor(l, r):
+        li = list(range(l, r+1))
+        max_ = 0
+        permuts = combinations_with_replacement(li, 2)
+        for permut in permuts:
+            XOR = (permut[0] ^ permut[1])
+            max_ = max(XOR, max_)
 
-    return max_
+        return max_
 
 if __name__ == '__main__':
 
@@ -17,6 +18,6 @@ if __name__ == '__main__':
 
     r = int(input())
 
-    result = maximizingXor(l, r)
+    result = Solution.maximizingXor(l, r)
 
     print(str(result) + '\n')
