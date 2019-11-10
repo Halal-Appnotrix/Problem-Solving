@@ -10,12 +10,13 @@
 #        return count
 
 
-
 # It's able to pass all test case.
 class Solution(object):
     def sumXor(n):
         num_of_zero = (bin(n).count('0')) - 1
         return 2**num_of_zero
+    
+    
     
 if __name__ == '__main__':
 
