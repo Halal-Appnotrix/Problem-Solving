@@ -1,6 +1,6 @@
 def theGreatXor(x):
     
-    return (1 << x.bit_length()) - x - 1
+    return (1 << x.bit_length()) - x - 1)
 
 if __name__ == '__main__':
 
