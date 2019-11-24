@@ -1,3 +1,5 @@
+/* Preblem Link:-https://www.hackerrank.com/challenges/the-pads/problem */
+
 select concat(Name, case when occupation = "Doctor" Then "(D)"
              when occupation = "Actor" Then "(A)"
              when occupation = "Singer" then "(S)"
